@@ -1,0 +1,68 @@
+canvas {
+  -ms-touch-action: none;
+  /*display: block;
+    margin: auto;*/
+}
+
+.m-page-1 .content-wrapper {}
+
+.page-draw {
+  background: url(../images/bruit.png) repeat;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.4);
+}
+
+.row.tools {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.toolbarview .buttonview.is-icon-only .button {
+  height: 40px;
+  margin: 5px -12px;
+  width: auto;
+  text-align: center;
+}
+
+.logo {
+  margin-right: 5px;
+}
+
+.switch-header-content-layout .content-wrapper {
+  background-color: transparent;
+}
+
+#fatal-error {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  display: none;
+}
+
+body {
+  background-size: cover;
+}
+
+#main {
+  display: none;
+}
+
+.header {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+.buttonview.disabled .button {
+  opacity: 0.5;
+}
+
+.required label:before {
+  content: '*';
+  padding-right: 5px;
+  opacity: 0.5;
+}

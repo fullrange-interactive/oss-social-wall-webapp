@@ -1,0 +1,63 @@
+==================================================
+==                                              ==
+==              THE M-PROJECT V2                ==
+==                 INFORMATION                  ==
+==					2014-03-04					==
+==												==
+==================================================
+
+
+==	OVERVIEW ==
+
+The-M-Project is based on 
+	Backbone.js
+	Bikini - a implementation of Model/Server connectivity to write realtime, collaborative apps
+	Espresso (command line tool) is now based on Grunt and Yeoman
+	No jQuery mobile support at the moment
+	Different Themes out of the Box (Default, Android, iOS7)
+	URL navigation and deep linking
+	60+ CSS Transitions
+	Sass support
+
+Included libraries
+	backbone.stickit
+	Underscore.js
+	jQuery 2.0
+	Font Awesome
+	Bootstrap Grid system
+	Moment.js
+	Socket.IO
+	Hammer.js
+	Page Transitions
+	Modernizr
+	Detectizr
+	Shake.js
+
+==	INSTALLATION ==
+
+	Node.js, Git and optionally, Ruby and Compass (if you plan to use Sass).
+
+== GENERATOR ==
+
+http://www.the-m-project.org/docs/absinthe/tutorial-Generator.html
+
+	Controller
+		yo m:controller foo
+		=> app/scripts/controllers/foo.js
+	View
+		yo m:view foo
+		=> app/scripts/views/foo.js
+	Model
+		yo m:model foo
+		=> app/scripts/models/foo.js
+	Collection
+		yo m:collection foo
+		=> app/scripts/collections/foo.js
+
+== LAUNCH & BUILD ==
+	grunt server
+	grunt build
+
+== DOCUMENTATION ==
+	
+	http://www.the-m-project.org/docs/absinthe/index.html

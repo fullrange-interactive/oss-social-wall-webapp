@@ -1,0 +1,87 @@
+body {
+  background-color: #fff;
+}
+
+.header,
+.toolbarview {
+  background-color: #083C51;
+}
+
+.toolbarview .center {
+  color: #fff;
+}
+
+#loading-splash-screen:before {
+  content: '';
+  background-image: url(../images/Logo.png);
+  display: inline-block;
+  width: 32px;
+  height: 44px;
+  margin: 10px;
+  position: relative;
+  top: 8px;
+  margin: 0 10px;
+}
+
+#loading-splash-screen {
+  color: #fff;
+}
+
+.header .toolbarview .center:before {
+  content: '';
+  background-image: url(../images/Logo.png);
+  background-size: contain;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 2px;
+  left: -50px;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.textview {
+  color: #fff;
+}
+
+.ui-widget-content {
+  color: #fff;
+  background: #020C10 none;
+  border: none;
+}
+
+.ui-widget-header {
+  background: #083C51 none;
+  border-color: #083C51;
+}
+
+.ui-dialog-buttonset button {
+  background-color: #083C51;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 10px;
+}
+
+.button {
+    border-color: #1a7da6;
+    color: #fff;
+    background: #23a8e0;
+    transition: all 0.05s ease-out;
+}
+
+.active .button {
+    transform: scale(0.95);
+}
+
+.buttonview.m-success .button {
+    border-color: #708f25;
+    color: #fff;
+    background: #95BF32;
+}
+
+.buttonview.m-success.active .button {
+}
+

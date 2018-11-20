@@ -1,0 +1,9 @@
+{
+  "name": "pmw",
+  "version": "0.0.0",
+  "dependencies": {
+    "themproject": "2.0.0-beta3",
+    "moment": "^2.15.1"
+  },
+  "devDependencies": {}
+}
